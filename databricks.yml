@@ -1,0 +1,22 @@
+bundle:
+  name: supply_chain_optimisation
+
+
+include:
+  - resources/*.yml
+
+variables:
+  # The "warehouse_id" variable is used to reference the warehouse used by the dashboard.
+  warehouse_id:
+    lookup:
+      # Replace this with the name of your SQL warehouse.
+      warehouse: "Serverless Starter Warehouse"
+
+workspace:
+      # host: https://workspace-id.azuredatabricks.net
+      host: https://adb-399775814539019.19.azuredatabricks.net
+
+targets:
+  dev:
+    mode: development
+    default: true
