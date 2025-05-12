@@ -13,8 +13,7 @@ variables:
       warehouse: "Serverless Starter Warehouse"
 
 workspace:
-      # host: https://workspace-id.azuredatabricks.net
-      host: https://adb-399775814539019.19.azuredatabricks.net
+      host: https://workspace-id.azuredatabricks.net
 
 targets:
   dev:
